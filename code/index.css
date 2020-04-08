@@ -15,9 +15,6 @@ header{
     display: block;
 }
 
-.row{
-  display: inline;
-}
 .display_name{
     text-align: center;
     font-family: "Lucinda Console", Courier, monospace;
@@ -110,19 +107,4 @@ a:focus{
 text-decoration-thickness: 20px;
 text-decoration: underline;
   color:#008080;
-}
-img.resize{
-    border-style: solid;
-    width: auto;
-    height: auto;
-    max-width: 200px;
-    max-height: 300px;
-}
-
-img.disney{
-  border-style: solid;
-  width: auto;
-  height: auto;
-  max-width: 200px;
-  max-height: 300px;
 }
