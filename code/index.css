@@ -65,30 +65,6 @@ li{
   padding-top: 30px;
   padding-left: 20px;
 }
-.column{
-    
-    padding-top: 20px;
-    padding-left: 20px;
-   float: left;
-   width: 30%;
-   
-}
-.column2{
-  padding-left: 100px;
-  padding-top: 20px;
-  float: left;
-  width: 30%;
-}
-.column3{
-  
-  font-family: "Lucinda Console", 'Courier New', Courier, monospace;
-  background-color: white;
-  width: 30%;
-  float: left;
-  border-style: solid;
-  text-align: center;
-
-}
 a{
   padding: 10px 5px;
   text-align: center;
