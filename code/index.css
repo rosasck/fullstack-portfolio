@@ -1,0 +1,128 @@
+
+*{
+    text-decoration-line: none;
+    color: black;
+}
+body{
+
+    background-image: url('../assign1/images/marble-white-1-2018.jpg');
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+}
+header{
+    display: block;
+}
+
+.row{
+  display: inline;
+}
+.display_name{
+    text-align: center;
+    font-family: "Lucinda Console", Courier, monospace;
+    font-weight: lighter;
+    transform: scale(1.5,1.8);
+
+}
+.welcome_msg{
+    text-align: center;
+    font-family: "Lucinda Console", Courier;
+    font-weight: lighter;
+}
+
+ul{
+  font-family: "Lucinda Console", 'Courier New', Courier, monospace;
+  color: black;
+  font-size: x-large;
+  list-style-type: none;
+  margin:0;
+  padding: 0px;
+  text-align: center;
+
+  background-color: white;
+}
+footer{
+
+  font-family: "Lucinda Console", 'Courier New', Courier, monospace;
+  font-size: smaller;
+  text-align: center;
+  background-color: white;
+}
+.footer{
+  padding-top: 30px;
+}
+li{
+    color: black;
+    display: inline;
+    text-align: center;
+
+     padding: 18px 14px;
+     margin-left: 50px;
+
+}
+.row{
+  content: "";
+  display: table;
+  clear: both;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.column{
+    
+    padding-top: 20px;
+    padding-left: 20px;
+   float: left;
+   width: 30%;
+   
+}
+.column2{
+  padding-left: 100px;
+  padding-top: 20px;
+  float: left;
+  width: 30%;
+}
+.column3{
+  
+  font-family: "Lucinda Console", 'Courier New', Courier, monospace;
+  background-color: white;
+  width: 30%;
+  float: left;
+  border-style: solid;
+  text-align: center;
+
+}
+a{
+  padding: 10px 5px;
+  text-align: center;
+}
+    
+a:hover{
+  text-decoration: underline;
+  color:#008080;
+}
+a:active{
+  text-decoration: underline;
+background-color: #008080;
+  color:white;
+}
+a:focus{
+text-decoration-thickness: 20px;
+text-decoration: underline;
+  color:#008080;
+}
+img.resize{
+    border-style: solid;
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+img.disney{
+  border-style: solid;
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 300px;
+}
