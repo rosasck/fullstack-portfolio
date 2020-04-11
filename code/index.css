@@ -28,17 +28,6 @@ header{
     font-weight: lighter;
 }
 
-ul{
-  font-family: "Lucinda Console", 'Courier New', Courier, monospace;
-  color: black;
-  font-size: x-large;
-  list-style-type: none;
-  margin:0;
-  padding: 0px;
-  text-align: center;
-
-  background-color: white;
-}
 footer{
 
   font-family: "Lucinda Console", 'Courier New', Courier, monospace;
@@ -49,38 +38,36 @@ footer{
 .footer{
   padding-top: 30px;
 }
-li{
-    color: black;
-    display: inline;
-    text-align: center;
-
-     padding: 18px 14px;
-     margin-left: 50px;
-
-}
-.row{
+.row::after{
   content: "";
   display: table;
   clear: both;
   padding-top: 30px;
   padding-left: 20px;
 }
-a{
-  padding: 10px 5px;
-  text-align: center;
-}
+
+.column{
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    float: left;
+    width: 30%;
+    height: auto;
+    max-height: 800px;
+    padding-left: 20px;
+
     
-a:hover{
-  text-decoration: underline;
-  color:#008080;
 }
-a:active{
-  text-decoration: underline;
-background-color: #008080;
-  color:white;
+
+.column.about:hover{
+    background-image: url(../code/images/coverpic!.jpg);
 }
-a:focus{
-text-decoration-thickness: 20px;
-text-decoration: underline;
-  color:#008080;
+
+.column.project:hover{
+    background-image: url(../code/images/maybe_coverpic.JPG);
+
+}
+.column.contact:hover{
+    background-image: url(../code/images/wheel_disney.JPG);
+
 }
