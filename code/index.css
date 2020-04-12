@@ -52,30 +52,33 @@ footer{
     border-style: solid;
     float: left;
     width: 30%;
-    padding-left: 30px;
+    padding-left:30px;
     height: 450px;
 
     
 }
 
 .column.about:hover{
-    background-image: url(../code/images/hawowi.jpg);
+    background-image: url(../code/images/hawaii_beach.JPG);
     background-repeat: no-repeat;
-    background-size: 400px 450px;
+    background-size: 550px 400px;
+    background-position: center;
 
 }
 
 .column.project:hover{
-    background-image: url(../code/images/maybe_coverpic.JPG);
+    background-image: url(../code/images/yellowstone.JPG);
     background-repeat: no-repeat;
-    background-size: 400px 450px;
+    background-size: 450px 400px;
+    background-position: center;
+
 
 }
 .column.contact:hover{
-    background-image: url(../code/images/dd.jpg);
+    background-image: url(../code/images/IMG_8864.JPG);
     background-repeat: no-repeat;
-    background-size: 300px 450px;
-    align-items: center;
+    background-size: cover;
+    background-position: center;
 
 }
 h3{
