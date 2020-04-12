@@ -59,15 +59,23 @@ footer{
 }
 
 .column.about:hover{
-    background-image: url(../code/images/hawowi.jpg)
+    background-image: url(../code/images/hawowi.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 450px;
+
 }
 
 .column.project:hover{
     background-image: url(../code/images/maybe_coverpic.JPG);
+    background-repeat: no-repeat;
+    background-size: 400px 450px;
 
 }
 .column.contact:hover{
-    background-image: url(../code/images/wheel_disney.JPG);
+    background-image: url(../code/images/dd.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 450px;
+    align-items: center;
 
 }
 h3{
@@ -75,4 +83,5 @@ h3{
     font-size: xx-large;
     font-weight: 500;
     font-family: "Lucinda Console", 'Courier New', Courier, monospace;
+    color:#e1ad01;
 }

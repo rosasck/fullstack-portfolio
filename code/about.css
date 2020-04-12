@@ -96,15 +96,14 @@ a{
     
 a:hover{
   text-decoration: underline;
-  color:#008080;
+  color:#e1ad01;
 }
 a:active{
   text-decoration: underline;
-background-color: #008080;
+  background-color:#e1ad01;
   color:white;
 }
 a:focus{
-text-decoration-thickness: 20px;
 text-decoration: underline;
-  color:#008080;
+  color:#e1ad01;
 }
