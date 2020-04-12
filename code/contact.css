@@ -3,14 +3,24 @@
     text-decoration-line: none;
     color: black;
 }
-body{
 
-    background-image: url('../code/images/marble-white-1-2018.jpg');
+body{
+   background-image: url('../code/images/marble-white-1-2018.jpg');
     width: 100%;
     height: auto;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+  background-color: rgb(0, 78, 78);
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #ccc;
+  margin-top: 50px;
+  text-align: center;
 
 }
+
+
+
 header{
     display: block;
 }
@@ -58,37 +68,6 @@ li{
      margin-left: 50px;
 
 }
-.row{
-  content: "";
-  display: table;
-  clear: both;
-  padding-top: 30px;
-  padding-left: 20px;
-}
-.column{
-    
-    padding-top: 20px;
-    padding-left: 20px;
-   float: left;
-   width: 30%;
-   
-}
-.column2{
-  padding-left: 100px;
-  padding-top: 20px;
-  float: left;
-  width: 30%;
-}
-.column3{
-  
-  font-family: "Lucinda Console", 'Courier New', Courier, monospace;
-  background-color: white;
-  width: 30%;
-  float: left;
-  border-style: solid;
-  text-align: center;
-
-}
 a{
   padding: 10px 5px;
   text-align: center;
@@ -104,7 +83,145 @@ background-color: #008080;
   color:white;
 }
 a:focus{
-text-decoration-thickness: 20px;
 text-decoration: underline;
   color:#008080;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight:normal;
+
+}
+
+
+.form{
+background-color: white;
+margin: auto;
+width: 380px;
+height: 420px;
+display: inline-block;
+border: none;
+text-align: left;
+padding-left: 20px;
+overflow: hidden;
+margin-top: 20px;
+}
+
+
+input[type=text],[type=email]{
+  text-align: left;
+  width:80%;
+  padding: 8px 13px;
+  margin: 5px 0;
+}
+
+p{
+  display: inline;
+  font-size: smaller;
+  color: red;
+}
+
+label{
+  color:#006060;
+  text-align: left;
+  font-size: smaller;
+}
+
+
+.btn{
+  font-size: 15px;
+  color: white;
+  margin-top: 15px;
+  background-color: #ffdb58;
+  cursor: pointer;
+  display:inline-block;
+  text-align: center;
+  padding: 2% 40%;
+
+}
+
+textarea{
+  border-color: #aaa;
+}
+
+h1 {
+  color: #008080;
+  font-family: sans-serif;
+  font-weight:normal;
+}
+
+
+
+.btn:hover{
+background-color: #ffdb58;
+}
+  
+@media screen and (max-width:790px){
+
+  body{
+
+    max-width: 80%;
+    max-height: 80%;
+    float: none;
+    text-align: center;
+  }
+  .form{
+    width: 400px;
+    height: 390px;
+    max-width: 60%;
+    max-height: 60%;
+
+    overflow: hidden;
+    border: none;
+  }
+  textarea{
+    width: 90%;
+  }
+  h1{
+    text-align: center;
+    font-size: larger;
+  }
+}
+
+@media screen and (max-width:476px)
+{
+body{
+  width: 300px;
+  background-color: rgb(0, 78, 78);
+  max-height: 80%;
+  max-width: 80%;
+  float: none;
+  text-align: center;
+}
+  .form{
+    width: 400px;
+    height: 390px;
+    max-width: 80%;
+    max-height: 70%;
+    background-color: white;
+    float: none;
+    overflow: hidden;
+    border: none;
+    text-align: left;
+  
+  
+  }
+  textarea{
+    width: 90%;
+  }
+   .btn{
+     width: 90%;
+     text-align: center;
+   }
+   input[type=text], [type=email]{
+     display: inline;
+   }
+   
+   h1{
+     font-size: larger;
+     text-align: center;
+   }
+   label{
+     width: 80%;
+   }
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Katie's Portfolio</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
@@ -12,7 +12,7 @@
     unordered or ordered list of links two types of headings! two images!-->
     <header class="text-center container-fluid" id="header">
        <h1 class="display_name"> Cintiha K. Rosas-Gordillo </h1> 
-       <h2 class="welcome_msg">Welcome to my digital portfolio </h2>
+       <h2 class="welcome_msg">Or Just Email Me At: <br> crosas@pdx.edu</h2>
     </header><!-- this is the end of my header-->
     <section>
       <nav>
@@ -26,15 +26,19 @@
     </section>
 
 
-
-    <div class="text-center container-fluid" id="into">
-      <div class="row" >
-
-      </div><!-- end of row -->
-
-
-    </div><!-- end of info-->
-
+    <div class='form'>
+      <h1>CONTACT FORM</h1>
+      <form>
+        <label for='name'>Name </label> <p> (required) </p>
+        <input type='text' id=name name='name' placeholder="EX. Katie Rosas" required><br><br>
+        <label for='email'>Email Address </label> <p> (required) </p>
+        <input type="email" id= 'email' name="email" placeholder="EX. crosas@pdx.edu" required><br><br>
+        <label for='comments'>Message </label>
+        <textarea id="comments" name="comments" style='height:80px' cols="65"></textarea><br>
+        <button class="btn" value="Submit"> Submit</button>
+  
+      </form>
+    </div>
 
     
     <div class="footer">

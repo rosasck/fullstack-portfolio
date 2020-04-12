@@ -6,9 +6,8 @@
 body{
 
     background-image: url('../code/images/marble-white-1-2018.jpg');
-    width: 100%;
     height: auto;
-    overflow: hidden;
+    overflow-x: hidden;
 
 }
 header{
@@ -46,21 +45,21 @@ footer{
   padding-left: 20px;
 }
 
+
 .column{
     text-align: center;
     background-color: white;
     border-style: solid;
     float: left;
     width: 30%;
-    height: auto;
-    max-height: 800px;
-    padding-left: 20px;
+    padding-left: 30px;
+    height: 450px;
 
     
 }
 
 .column.about:hover{
-    background-image: url(../code/images/coverpic!.jpg);
+    background-image: url(../code/images/hawowi.jpg)
 }
 
 .column.project:hover{
@@ -70,4 +69,10 @@ footer{
 .column.contact:hover{
     background-image: url(../code/images/wheel_disney.JPG);
 
+}
+h3{
+    margin-top: 100%;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: "Lucinda Console", 'Courier New', Courier, monospace;
 }
