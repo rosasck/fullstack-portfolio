@@ -75,9 +75,9 @@ footer{
 
 }
 .column.contact:hover{
-    background-image: url(../code/images/IMG_8864.JPG);
+    background-image: url(../code/images/wheel_disney.JPG);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 300px 450px;
     background-position: center;
 
 }
