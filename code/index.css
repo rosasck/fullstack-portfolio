@@ -88,3 +88,68 @@ h3{
     font-family: "Lucinda Console", 'Courier New', Courier, monospace;
     color:#e1ad01;
 }
+
+
+.columns{
+  margin-left: 80px;
+  max-height: 50px;
+  max-width: 30%;
+  display: inline;
+  text-align: center;
+}
+
+.linked_in{
+  max-width: 80px;
+  width: 80px;
+  height: 50px;
+  max-height: 50px;
+
+}
+.certification{
+
+  max-width: 80px;
+  width: 80px;
+  height: 50px;
+  max-height: 50px;
+
+}
+.resume{
+
+  max-width: 80px;
+  width: 80px;
+  height: 50px;
+  max-height: 50px;
+
+}
+
+.rowss{
+  
+  font-family: "Lucinda Console", 'Courier New', Courier, monospace;
+  background-color: white;
+  border-style: solid;
+  text-align: left;
+  content: "";
+  display: table;
+  clear: both;
+  width: 97%;
+  margin-left: 10px;
+
+}
+
+a{
+  text-align: center;
+}
+    
+a:hover{
+  text-decoration: underline;
+  color:#e1ad01;
+}
+a:active{
+  text-decoration: underline;
+  background-color:#e1ad01;
+  color:white;
+}
+a:focus{
+text-decoration: underline;
+  color:#e1ad01;
+}
