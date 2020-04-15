@@ -110,3 +110,65 @@ align-items: center;
 h3{
   font-size: xx-large;
 }
+
+@media screen and (max-width: 476px)
+{
+  .flex-container{
+    width: 80%;
+    height: auto;
+    align-items: flex-end;
+
+  }
+  .flex-item{
+    margin-left: 20%;
+
+  }
+  .space{
+    height: 30%;
+    width: 100%;
+    margin-left: 0px;
+
+  }
+  .display_name{
+    font-size: x-small;
+
+  }
+  li{
+    text-align: center;
+    display: block;
+    font-size: smaller;
+
+  }
+
+}
+
+@media screen and (max-width:768px)
+{
+  .flex-container{
+    width: 80%;
+    height: auto;
+    align-items: flex-end;
+
+  }
+  .flex-item{
+    margin-left: 20%;
+
+  }
+  .space{
+    height: 30%;
+    width: 100%;
+    margin-left: 0px;
+
+  }
+  .display_name{
+    font-size: x-small;
+
+  }
+  li{
+    text-align: center;
+    display: block;
+    font-size: smaller;
+
+  }
+
+}

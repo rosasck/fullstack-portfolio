@@ -157,8 +157,6 @@ h1 {
   font-weight:normal;
 }
 
-
-
 .btn:hover{
 background-color: #ffdb58;
 }
@@ -167,8 +165,8 @@ background-color: #ffdb58;
 
   body{
 
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 100%;
+    max-height: 100%;
     float: none;
     text-align: center;
   }
@@ -188,15 +186,31 @@ background-color: #ffdb58;
     text-align: center;
     font-size: larger;
   }
+  .display_name{
+    font-size: x-small;
+
+  }
+  li{
+    text-align: center;
+    display: block;
+    font-size: smaller;
+
+  }
+  .row{
+    display: block;
+    margin-left: 0px;
+    text-align: left;
+    font-size: 10%;
+    text-align: left;
+  }
+  
 }
 
 @media screen and (max-width:476px)
 {
 body{
-  width: 300px;
-  background-color: rgb(0, 78, 78);
-  max-height: 80%;
-  max-width: 80%;
+  max-height: 100%;
+  max-width: 100%;
   float: none;
   text-align: center;
 }
@@ -231,6 +245,27 @@ body{
    label{
      width: 80%;
    }
+   .display_name{
+    font-size: x-small;
+    margin-bottom: 20px;
+
+  }
+  .welcome_msg{
+    font-size: small;
+  }
+  li{
+    text-align: left;
+    display: block;
+    font-size: smaller;
+
+  }
+  .row{
+    display: block;
+    margin-left: 0px;
+    text-align: left;
+    font-size: 10%;
+    text-align: left;
+  }
 }
 
 

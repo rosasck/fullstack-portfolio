@@ -153,3 +153,33 @@ a:focus{
 text-decoration: underline;
   color:#e1ad01;
 }
+
+@media screen and (max-width: 476px)
+{
+    .display_name{
+        font-size: x-small;
+    
+      }
+      li{
+        text-align: center;
+        display: block;
+        font-size: smaller;
+    
+      }
+
+}
+
+@media screen and (max-width:768px)
+{
+    .display_name{
+        font-size: x-small;
+    
+      }
+      li{
+        text-align: center;
+        display: block;
+        font-size: smaller;
+    
+      }
+
+}
