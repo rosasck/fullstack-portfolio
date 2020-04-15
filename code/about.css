@@ -214,6 +214,16 @@ text-decoration: underline;
     font-size: smaller;
 
   }
+  .row{
+    display: block;
+    margin-left: 0px;
+    text-align: left;
+    font-size: 10%;
+    text-align: left;
+  }
+  .slideshow-container{
+    
+  }
 
 }
 
@@ -229,5 +239,13 @@ text-decoration: underline;
     font-size: smaller;
 
   }
+  .row{
+    display: block;
+    margin-left: 0px;
+    text-align: left;
+    font-size: 10%;
+    text-align: left;
+  } 
+
 
 }
