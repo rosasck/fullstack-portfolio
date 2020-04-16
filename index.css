@@ -166,7 +166,41 @@ text-decoration: underline;
         font-size: smaller;
     
       }
+      .rowss{
+        display: block;
+        margin-left: 0px;
+        text-align: left;
+        font-size: 10%;
+        text-align: left;
+      }
+      .column{
+        width: 30%;
+        text-align: center;
+        background-color: white;
+        border-style: solid;
+        float: left;
+        padding-left:0px;
+        height: 300px;
 
+      }
+      .column.about:hover{
+        background-color: #e1ad01;
+        background-image: none;
+
+      }
+      .column.project:hover{
+        background-color: #e1ad01;
+        background-image: none;
+      }
+      .column.contact:hover{
+        background-color: #e1ad01;
+        background-image: none;
+
+      }
+      h3{
+        color: black;
+        font-size: large;
+      }
 }
 
 @media screen and (max-width:768px)
@@ -181,5 +215,41 @@ text-decoration: underline;
         font-size: smaller;
     
       }
+      .rowss{
+        display: block;
+        margin-left: 0px;
+        text-align: left;
+        font-size: 10%;
+        text-align: left;
+      }
+      .column{
+        width: 30%;
+        text-align: center;
+        background-color: white;
+        border-style: solid;
+        float: left;
+        padding-left:0px;
+        height: 300px;
+
+      }
+      .column.about:hover{
+        background-color: #e1ad01;
+        background-image: none;
+
+      }
+      .column.project:hover{
+        background-color: #e1ad01;
+        background-image: none;
+      }
+      .column.contact:hover{
+        background-color: #e1ad01;
+        background-image: none;
+
+      }
+      h3{
+        color: black;
+        font-size: large;
+      }
+
 
 }
