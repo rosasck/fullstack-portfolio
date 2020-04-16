@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head> <!-- start of head container-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>About Me</title>
+    <title>About Me</title> <!-- tabname for webpage-->
     <link rel="stylesheet" href="about.css" />
-  </head>
-  <body>
-     <!-- brie bio, footer and atleast one section elemnet
-    unordered or ordered list of links two types of headings! two images!-->
-    <header class="text-center container-fluid" id="header">
+   <!--- <script src="java.js"></script>-->
+  </head> <!-- end of head container-->
+
+
+
+  <body> <!-- start of body for webpage-->
+
+
+    <header class="text-center container-fluid" id="header"><!-- start of header-->
+      <!-- this container holds both my name to go at the top of the page and a small welcome message-->
        <h1 class="display_name"> Cintiha K. Rosas-Gordillo </h1> 
        <h2 class="welcome_msg">About Me Page</h2>
     </header><!-- this is the end of my header-->
-    <section>
+
+
+
+    <section> <!-- this section is used for my navigation bar at the top -->
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -23,12 +31,14 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-    </section>
+    </section> <!--end of navigation bar code -->
 
 
 
-<div class="slideshow-container">
+<div class="slideshow-container"> <!-- beginning of my carousel-->
 
+
+  <!-- these are the photos for my carousel -->
   <div class="mySlides fade">
     <img class= "too_long" src="../code/images/picture.JPG" style="width:100%">
   </div>
@@ -58,14 +68,14 @@
   </div>
 
 
-
+<!-- these are the buttons for the carousel below -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
+</div> <!-- end of carousel -->
 <br>
 
  
-
+<!-- this is the javascript for my carousel-->
 
 <script>
   var slideIndex = 1;
@@ -94,11 +104,10 @@ function showSlides(n) {
 
 </script>
 
+<!-- this is the end of the carousel-->
 
 
-
-
-
+<!-- this is the brief bio for my about me page -->
     <div class="text-center container-fluid" id="into">
       <div class="row" >
 
@@ -113,7 +122,12 @@ function showSlides(n) {
         continued to visit atleast once each month. I strongly believe that life must have a balance of work and traveling.
       </div> <!-- end of row-->
        <br><br>
+<!-- end of bio for my about me-->
 
+
+
+
+<!--  This is my links at the bottom of the screen for linked in, resume and certificatio -->
       <div class="row"> <!-- ROW 2-->
 
         <div class="column">
@@ -147,6 +161,7 @@ function showSlides(n) {
 
 
     
+    <!-- footer at the end of each page -->
     <div class="footer">
    <footer>
     <p> Cintiha Rosas-Gordillo, B.S. Computer Science & Business Administration, Portland State University, Web Portfolio</p>

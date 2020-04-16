@@ -1,8 +1,11 @@
 
+/* page style*/
 *{
     text-decoration-line: none;
     color: black;
 }
+
+/* background setting*/
 body{
 
     background-image: url('../code/images/marble-white-1-2018.jpg');
@@ -12,10 +15,13 @@ body{
     overflow-y: scroll;
 
 }
+
+/* header style*/
 header{
     display: block;
 }
 
+/* big name at top of page*/
 .display_name{
     text-align: center;
     font-family: "Lucinda Console", Courier, monospace;
@@ -23,12 +29,15 @@ header{
     transform: scale(1.5,1.8);
 
 }
+
+/*msg under name */
 .welcome_msg{
     text-align: center;
     font-family: "Lucinda Console", Courier;
     font-weight: lighter;
 }
 
+/* nav bar setting*/
 ul{
   font-family: "Lucinda Console", 'Courier New', Courier, monospace;
   color: black;
@@ -40,6 +49,8 @@ ul{
 
   background-color: white;
 }
+
+/* footer style at the end of page*/
 footer{
 
   font-family: "Lucinda Console", 'Courier New', Courier, monospace;
@@ -49,7 +60,9 @@ footer{
 }
 .footer{
   padding-top: 30px;
-}
+}/* end of footer style with name, school major*/
+
+/* nav bar item style*/
 li{
     color: black;
     display: inline;
@@ -59,6 +72,8 @@ li{
      margin-left: 50px;
 
 }
+
+/* nav bar status for links*/
 a{
   padding: 10px 5px;
   text-align: center;
@@ -78,6 +93,9 @@ text-decoration: underline;
   color:#e1ad01;
 }
 
+/* end of navigation bar status */
+
+/* photo of cs300 project settings */
 .space{
   max-width: 800px;
   max-height: 400px;
@@ -86,6 +104,7 @@ text-decoration: underline;
   margin-left: 50px;
 }
 
+/* cs300 project*/
 .flex-item{
   width: 900px;
   height: 700px;
@@ -99,6 +118,7 @@ text-decoration: underline;
 
 }
 
+/* project container*/
 .flex-container{
 margin-top: 30px;
 display: flex;
@@ -107,10 +127,12 @@ flex-direction: row;
 align-items: center;
 }
 
+/* project name*/
 h3{
   font-size: xx-large;
 }
 
+/* settings for mobile*/
 @media screen and (max-width: 476px)
 {
   .flex-container{
@@ -142,6 +164,7 @@ h3{
 
 }
 
+/* settings for ipad*/
 @media screen and (max-width:768px)
 {
   .flex-container{

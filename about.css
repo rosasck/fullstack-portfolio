@@ -1,9 +1,14 @@
 
+
+/* This is the CSS stylesheet for the about me page */
 *{
     text-decoration-line: none;
     color: black;
     box-sizing:border-box
 }
+
+
+/* this is the overall for the background and to adjust for overflow*/
 body{
 
     background-image: url('../code/images/marble-white-1-2018.jpg');
@@ -13,10 +18,16 @@ body{
     overflow-y: scroll;
 
 }
+
+
+/* this takes in account the top display name and welcome message */
 header{
     display: block;
 }
 
+
+
+/*  this is the top big writting of my nam e*/
 .display_name{
     text-align: center;
     font-family: "Lucinda Console", Courier, monospace;
@@ -24,12 +35,17 @@ header{
     transform: scale(1.5,1.8);
 
 }
+
+
+/* this is the message below my name  */
 .welcome_msg{
     text-align: center;
     font-family: "Lucinda Console", Courier;
     font-weight: lighter;
 }
 
+
+/* this is for the navigation bar  */
 ul{
   font-family: "Lucinda Console", 'Courier New', Courier, monospace;
   color: black;
@@ -38,9 +54,11 @@ ul{
   margin:0;
   padding: 0px;
   text-align: center;
-
   background-color: white;
 }
+
+
+/* footer at the bottom of the page with my degree and school  */
 footer{
 
   font-family: "Lucinda Console", 'Courier New', Courier, monospace;
@@ -51,6 +69,9 @@ footer{
 .footer{
   padding-top: 30px;
 }
+
+
+/* this is for each individual navbar item  */
 li{
     color: black;
     display: inline;
@@ -60,6 +81,9 @@ li{
      margin-left: 50px;
 
 }
+
+
+/* this is for my brief bio  */
 .row{
   
   font-family: "Lucinda Console", 'Courier New', Courier, monospace;
@@ -73,6 +97,8 @@ li{
   margin-left: 10px;
 
 }
+
+/* this is the settings for the list of links for linked in, resume and certification */
 .column{
   margin-left: 80px;
   max-height: 50px;
@@ -80,7 +106,7 @@ li{
   display: inline;
   text-align: center;
 }
-
+/* the picture settings for linked in pic */
 .linked_in{
   max-width: 80px;
   width: 80px;
@@ -88,6 +114,8 @@ li{
   max-height: 50px;
 
 }
+
+/* this is the picture setting for the certification*/
 .certification{
 
   max-width: 80px;
@@ -96,6 +124,7 @@ li{
   max-height: 50px;
 
 }
+/* this is the picture setting for the resume logo*/ 
 .resume{
 
   max-width: 80px;
@@ -105,6 +134,8 @@ li{
 
 }
 
+
+/* nav bar setting links for each state*/
 a{
   padding: 10px 5px;
   text-align: center;
@@ -123,11 +154,11 @@ a:focus{
 text-decoration: underline;
   color:#e1ad01;
 }
+/* end of nav bar settings*/
 
 
 
-
-
+/* photo settings for one horizontal photo */
 .too_long{
   height: 500px;
   max-height: 500px;
@@ -136,7 +167,7 @@ text-decoration: underline;
   margin-left: 40px;
   padding-left: 80px;
 }
-
+/* photo settings for the vertical photos */
  .stuborn-photo{
    height: 500px;
    max-height:450px;
@@ -147,6 +178,7 @@ text-decoration: underline;
 
  }
 
+ /* the container of the carousel */
 .slideshow-container {
   max-width: 600px;
   position: relative;
@@ -154,10 +186,12 @@ text-decoration: underline;
   margin-top: 20px;
 }
 
+/* each photo */
 .mySlides {
   display: none;
 }
 
+/* settings for the next and previous photo buttons on carousel */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -173,35 +207,39 @@ text-decoration: underline;
   user-select: none;
 }
 
+
+/* this is for switching to th enext photo */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
+
+/* hover setting fro the next and previos arrow on carosel */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
 
+/* this is to create the fade affect moving from each photo */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
-
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
-
-
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
 
+/* end of fade affect */
+
+/* adjustments for mobile */
 @media screen and (max-width: 476px)
 {
   .display_name{
@@ -247,6 +285,7 @@ text-decoration: underline;
 
 }
 
+/*adjustment for ipads */
 @media screen and (max-width:768px)
 {
   .display_name{

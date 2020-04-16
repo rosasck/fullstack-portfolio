@@ -1,9 +1,10 @@
-
+/* overall settings*/
 *{
     text-decoration-line: none;
     color: black;
 }
 
+/* page settings*/
 body{
    background-image: url('../code/images/marble-white-1-2018.jpg');
     width: 100%;
@@ -19,11 +20,11 @@ body{
 }
 
 
-
+/* the header section */
 header{
     display: block;
 }
-
+/* name at top of page*/
 .display_name{
     text-align: center;
     font-family: "Lucinda Console", Courier, monospace;
@@ -31,12 +32,14 @@ header{
     transform: scale(1.5,1.8);
 
 }
+/* straight link to email at top of page */
 .welcome_msg{
     text-align: center;
     font-family: "Lucinda Console", Courier;
     font-weight: lighter;
 }
 
+/* nav bar style */
 ul{
   font-family: "Lucinda Console", 'Courier New', Courier, monospace;
   color: black;
@@ -48,6 +51,8 @@ ul{
 
   background-color: white;
 }
+
+/* footer style for the majors*/
 footer{
 
   font-family: "Lucinda Console", 'Courier New', Courier, monospace;
@@ -57,7 +62,9 @@ footer{
 }
 .footer{
   padding-top: 30px;
-}
+}/* end of footer settings*/
+
+/* inidividual nav bar items */
 li{
     color: black;
     display: inline;
@@ -67,6 +74,8 @@ li{
      margin-left: 50px;
 
 }
+
+/*navgiation bar status links*/
 a{
   padding: 10px 5px;
   text-align: center;
@@ -87,14 +96,16 @@ text-decoration: underline;
 
   color:#e1ad01;
 }
+/* end of navigation bar status*/
 
+/* label settings*/
 h1 {
   font-family: sans-serif;
   font-weight:normal;
 
 }
 
-
+/* pvreall form settings*/
 .form{
 background-color: white;
 margin: auto;
@@ -108,12 +119,14 @@ overflow: hidden;
 margin-top: 20px;
 }
 
+/* name label on form */
 .formname{
 
   color:#e1ad01;
   text-align: center;
 
 }
+/* settings for the inuput boxes on contact form*/
 input[type=text],[type=email]{
   text-align: left;
   width:80%;
@@ -121,6 +134,7 @@ input[type=text],[type=email]{
   margin: 5px 0;
 }
 
+/* small "required" next to label on contact form*/
 p{
   display: inline;
   font-size: smaller;
@@ -128,6 +142,7 @@ p{
   font-weight: lighter;
 }
 
+/* labels for the input boxes on the contact form*/
 label{
   color:#e1ad01;
   text-align: left;
@@ -136,6 +151,7 @@ label{
 }
 
 
+/* submit button settings*/
 .btn{
   font-size: 15px;
   color: white;
@@ -148,19 +164,23 @@ label{
 
 }
 
+/* message area for contact form*/
 textarea{
   border-color: #aaa;
 }
 
+/* form title*/
 h1 {
   font-family: sans-serif;
   font-weight:normal;
 }
 
+/* submit button on contact form */
 .btn:hover{
 background-color: #ffdb58;
 }
-  
+
+/* settings for ipad  */
 @media screen and (max-width:790px){
 
   body{
@@ -207,6 +227,7 @@ background-color: #ffdb58;
   
 }
 
+/* settings for mobile  */
 @media screen and (max-width:476px)
 {
 body{
@@ -271,8 +292,7 @@ body{
 }
 
 
-
-
+/* settings for the spacing of the logo links*/
 .column{
   margin-left: 80px;
   max-height: 50px;
@@ -281,6 +301,7 @@ body{
   text-align: center;
 }
 
+/* linked in logo settings */
 .linked_in{
   max-width: 80px;
   width: 80px;
@@ -288,6 +309,8 @@ body{
   max-height: 50px;
 
 }
+
+/* certification logo settings */
 .certification{
 
   max-width: 80px;
@@ -296,6 +319,8 @@ body{
   max-height: 50px;
 
 }
+
+/* resume logo settings */
 .resume{
 
   max-width: 80px;
@@ -306,6 +331,8 @@ body{
 }
 
 
+
+/* this is for the linked in, resume, and certification style */
 .row{
  margin-top: 70px; 
   font-family: "Lucinda Console", 'Courier New', Courier, monospace;

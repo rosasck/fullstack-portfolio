@@ -1,8 +1,11 @@
 
+/* overall settings  */
 *{
     text-decoration-line: none;
     color: black;
 }
+
+/* settings for background of page*/
 body{
 
     background-image: url('../code/images/marble-white-1-2018.jpg');
@@ -10,10 +13,15 @@ body{
     overflow-x: hidden;
 
 }
+
+
+/* settings for the top name and welcome message */
 header{
     display: block;
 }
 
+
+/* display name at the top of page */
 .display_name{
     text-align: center;
     font-family: "Lucinda Console", Courier, monospace;
@@ -21,12 +29,15 @@ header{
     transform: scale(1.5,1.8);
 
 }
+
+/* welcome message under the name at top  */
 .welcome_msg{
     text-align: center;
     font-family: "Lucinda Console", Courier;
     font-weight: lighter;
 }
 
+/* beggining of footer settings for school, major and name*/
 footer{
 
   font-family: "Lucinda Console", 'Courier New', Courier, monospace;
@@ -37,6 +48,10 @@ footer{
 .footer{
   padding-top: 30px;
 }
+/* end of footer settings */
+
+
+/* the line after the columns for each page/section*/
 .row::after{
   content: "";
   display: table;
@@ -46,6 +61,7 @@ footer{
 }
 
 
+/* the settings for each card column*/
 .column{
     text-align: center;
     background-color: white;
@@ -58,6 +74,7 @@ footer{
     
 }
 
+/* about page column hover image*/
 .column.about:hover{
     background-image: url(../code/images/hawaii_beach.JPG);
     background-repeat: no-repeat;
@@ -66,6 +83,7 @@ footer{
 
 }
 
+/* project page column hover image*/
 .column.project:hover{
     background-image: url(../code/images/yellowstone.JPG);
     background-repeat: no-repeat;
@@ -74,6 +92,8 @@ footer{
 
 
 }
+
+/* contact page column hover image*/
 .column.contact:hover{
     background-image: url(../code/images/wheel_disney.JPG);
     background-repeat: no-repeat;
@@ -81,6 +101,8 @@ footer{
     background-position: center;
 
 }
+
+/* page/section title*/
 h3{
     margin-top: 100%;
     font-size: xx-large;
@@ -89,7 +111,7 @@ h3{
     color:#e1ad01;
 }
 
-
+/*linked in, resume, certification settings*/
 .columns{
   margin-left: 80px;
   max-height: 50px;
@@ -98,13 +120,14 @@ h3{
   text-align: center;
 }
 
+/* linked in logo settings*/
 .linked_in{
   max-width: 80px;
   width: 80px;
   height: 50px;
   max-height: 50px;
-
 }
+/* certification logo setting*/
 .certification{
 
   max-width: 80px;
@@ -113,6 +136,7 @@ h3{
   max-height: 50px;
 
 }
+/* resume logo setting*/
 .resume{
 
   max-width: 80px;
@@ -122,6 +146,7 @@ h3{
 
 }
 
+/* links settings for linked in , resume and certification*/
 .rowss{
   
   font-family: "Lucinda Console", 'Courier New', Courier, monospace;
@@ -136,6 +161,7 @@ h3{
 
 }
 
+/* nav bar item settings for status*/
 a{
   text-align: center;
 }
@@ -154,6 +180,11 @@ text-decoration: underline;
   color:#e1ad01;
 }
 
+/* nav bar item setting for status ending*/
+
+
+
+/* settings for mobile*/
 @media screen and (max-width: 476px)
 {
     .display_name{
@@ -203,6 +234,8 @@ text-decoration: underline;
       }
 }
 
+
+/* settings for ipad*/
 @media screen and (max-width:768px)
 {
     .display_name{
