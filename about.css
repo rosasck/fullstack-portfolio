@@ -222,7 +222,27 @@ text-decoration: underline;
     text-align: left;
   }
   .slideshow-container{
-    
+    max-width: 90%;
+    position: relative;
+    margin-left: 0px;
+  }
+  .stuborn-photo{
+    margin-left: 35px;
+    padding-left: 35px;
+    padding-right: 80px;
+    max-width: 400px;
+    width: 400px;
+    max-height: 400px;
+    height: 400px;
+  }
+  .too_long{
+    margin-left: 35px;
+    padding-left: 35px;
+    padding-right: 80px;
+    max-width: 400px;
+    width: 400px;
+   max-height: 400px;
+    height: 400px;
   }
 
 }
@@ -246,6 +266,29 @@ text-decoration: underline;
     font-size: 10%;
     text-align: left;
   } 
+  .slideshow-container{
+    max-width: 90%;
+    position: relative;
+    margin-left: 0px;
+  }
+  .stuborn-photo{
+    margin-left: 35px;
+    padding-left: 35px;
+    padding-right: 80px;
+    max-width: 400px;
+    width: 400px;
+    max-height: 400px;
+    height: 400px;
+  }
+  .too_long{
+    margin-left: 35px;
+    padding-left: 35px;
+    padding-right: 80px;
+    max-width: 400px;
+    width: 400px;
+   max-height: 400px;
+    height: 400px;
+  }
 
 
 }
